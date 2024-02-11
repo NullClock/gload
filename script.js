@@ -2,7 +2,7 @@ import * as gdr from "https://esm.sh/v135/gdrweb@0.2.0/es2022/gdrweb.mjs";
 
 window.onload = async () => {
   const d2 = document.querySelector('#cwgl2');
-  const lst = prompt("Level String:");
+  const lst = prompt("Paste Level String Below");
 
   await gdr.Renderer.initTextureInfo(
     "GJ_GameSheet-hd.plist",
