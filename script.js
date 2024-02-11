@@ -10,7 +10,7 @@ window.onload = async () => {
   );
 
   let renderer = new gdr.Renderer(
-    new gdr.WebGLContext(canvas),
+    new gdr.WebGLContext(d2),
     "GJ_GameSheet-hd.png",
     "GJ_GameSheet02-hd.png"
   );
